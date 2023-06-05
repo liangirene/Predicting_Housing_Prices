@@ -1,6 +1,6 @@
 # Predicting Housing Prices
 
-This project aims to predict housing prices based on various house features using an iterative process that involves specifying, fitting, and analyzing the performance of a model. It is divided into distinct parts, including exploratory data analysis (EDA), feature engineering, model specification, and regression analysis.
+This project aims to predict housing prices based on various house features using an iterative process that involves specifying, fitting, and analyzing the performance of a model. It is divided into 4 sections: exploratory data analysis (EDA), feature engineering, model specification, and regression analysis.
 
 - One-Hot Encoding: The categorical variable "Roof Material" is encoded using one-hot encoding to prepare it for model training.
 - Linear Regression from scikit-learn: Linear regression models are used to predict housing prices based on selected features.
