@@ -9,8 +9,6 @@ This project involves the iterative process of specifying, fitting, and analyzin
 ## Data Source
 The dataset used in this project is obtained from the Cook County Assessor's Office (CCAO) in Illinois. The dataset consists of over 500,000 records describing houses sold in Cook County in recent years. The data includes 61 features related to the properties. The property tax assessments in Cook County are based on property values estimated using statistical models that consider factors such as real estate value and construction cost. The dataset has been split into training and test sets, with 204,792 and 68,264 observations, respectively.
 
-To access the dataset, the data files have been compressed in the cook_county_data.zip file. After extracting the data, we can proceed with the analysis.
-
 ## Part 1: Exploratory Data Analysis
 In this section, I performed exploratory data analysis (EDA) on the training data to gain insights and make informed modeling decisions. The EDA includes the following steps:
 
