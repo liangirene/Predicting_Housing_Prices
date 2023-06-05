@@ -8,7 +8,11 @@ Data science techniques used:
 - Building a Data Pipeline using pandas: The pandas library is used to manipulate and preprocess the dataset, including data cleaning, feature extraction, and transformation.
 
 ## Data Source
-The dataset used in this project is obtained from the Cook County Assessor's Office (CCAO) in Illinois. The dataset consists of over 500,000 records describing houses sold in Cook County in recent years. The data includes 61 features related to the properties. The property tax assessments in Cook County are based on property values estimated using statistical models that consider factors such as real estate value and construction cost. The dataset has been split into training and test sets, with 204,792 and 68,264 observations, respectively.
+The dataset we’ll be working with comes from the Cook County Assessor’s Office (CCAO) in Illinois, a government institution that determines property taxes across most of Chicago’s metropolitan area and its nearby suburbs. In the United States, all property owners are required to pay property taxes, which are then used to fund public services including education, road maintenance, and sanitation. These property tax assessments are based on property values estimated using statistical models that consider multiple factors, such as real estate value and construction cost.
+
+The CCAO dataset consists of over 500 thousand records describing houses sold in Cook County in recent years (new records are still coming in every week!). The data set we will be working with has 61 features in total. An explanation of each variable can be found in the included codebook.txt file. Some of the columns have been filtered out to ensure this assignment doesn't become overly long when dealing with data cleaning and formatting.
+
+The data are split into training and test sets with 204792 and 68264 observations, respectively.
 
 ## Part 1: Exploratory Data Analysis
 In this section, I performed exploratory data analysis (EDA) on the training data to gain insights and make informed modeling decisions. The EDA includes the following steps:
